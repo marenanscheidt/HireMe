@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+#body {
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  background-color: #8EC2F0;
+}
+
+
+.name {
+  position: relative;
+  font-family: 'Shrikhand', cursive;
+  font-size: 80px;
+  left: 50px;
+  top: 50px;
+  letter-spacing: 20px;
+  color: #DF35C3;
+
+}
+
+.me {
+  position: relative;
+  font-family: 'Shrikhand', cursive;
+  font-size: 10px;
+  top: -300px;
+  right: 0px;
+  color: #DF35C3;
+  text-align: right;
+}
+
+.address {
+  position: relative;
+  font-family: 'Shrikhand', cursive;
+  font-size: 20px;
+  text-align: right;
+  top: -700px;
+  right: -200px;
+  color: #DF35C3;
+  transform: rotate(90deg);
+  {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+}
+
+.edu {
+  position: relative;
+  font-family: 'Shrikhand', cursive;
+  font-size: 15px;
+  top: 10px;
+  left: 100px;
+  color: #DF35C3;
+}
+
+.exp {
+  position: relative;
+  font-family: 'Shrikhand', cursive;
+  font-size: 15px;
+  top: 60px;
+  left: 600px;
+  color: #DF35C3;
+}
+
+.skills {
+  position: absolute;
+  text-align: right;
+  font-family: 'Shrikhand', cursive;
+  font-size: 15px;
+  top: 600px;
+  right: 60px;
+  color: #DF35C3;
+}

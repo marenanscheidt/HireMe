@@ -1,0 +1,67 @@
+
+#body {
+  position: absolute;
+  width: 1200px;
+  height: 800px;
+  background-color: #F0D38E
+}
+
+
+.name {
+  position: relative;
+  font-family: 'times new roman', serif;
+  font-size: 30px;
+  left: 200px;
+  top: 50px;
+  letter-spacing: 20px;
+  text-decoration: none;
+  text-decoration: underline;
+  color: black;
+
+}
+
+.me {
+  position: relative;
+  font-family: 'times new roman', serif;
+  font-size: 10px;
+  top: 100px;
+  left: 100px;
+}
+
+.address {
+  position: relative;
+  font-family: serif;
+  font-size: 20px;
+  text-align: right;
+  top: 160px;
+  right: 150px;
+}
+
+.edu {
+  position: relative;
+  font-family: serif;
+  font-size: 15px;
+  top: 200px;
+  left: 100px;
+}
+
+.exp {
+  position: relative;
+  font-family: serif;
+  font-size: 15px;
+  top: 260px;
+  left: 100px;
+}
+
+.skills {
+  position: absolute;
+  text-align: right;
+  font-family: serif;
+  font-size: 15px;
+  top: 460px;
+  right: 150px;
+}
+
+a:active {
+
+}
